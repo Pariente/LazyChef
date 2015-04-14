@@ -7,40 +7,38 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.1em;
-    color: #231F20
+    color: #231610
 }
 p {
     line-height: 1.5;
     margin: 30px 0
 }
 p a {
-    text-decoration: underline
+    text-decoration: none
 }
 h1,
 h2 {
     font-family: Lato, sans-serif;
-    font-weight: 500
+    font-weight: 500;
+    margin-top: 0px;
 }
 h3,
 h4,
 h5,
 h6 {
     font-family: Lato, sans-serif;
-    font-weight: 100 !important
+    font-weight: 100 !important;
+    margin-top: 10px;
 }
 a {
-    color: #231F20
+    color: #231610
 }
 a:focus,
 a:hover {
     color: #322B2D
 }
-a img:focus,
-a img:hover {
-    cursor: zoom-in
-}
 blockquote {
-    color: #231F20;
+    color: #231610;
     font-style: italic
 }
 hr.small {
@@ -111,18 +109,18 @@ hr.small {
         transition: transform .3s
     }
     .navbar-custom.is-fixed .navbar-brand {
-        color: #231F20
+        color: #231610
     }
     .navbar-custom.is-fixed .navbar-brand:focus,
     .navbar-custom.is-fixed .navbar-brand:hover {
-        color: #3D5492
+        color: #322B2D
     }
     .navbar-custom.is-fixed .nav li a {
-        color: #231F20
+        color: #231610
     }
     .navbar-custom.is-fixed .nav li a:focus,
     .navbar-custom.is-fixed .nav li a:hover {
-        color: #3D5492
+        color: #322B2D
     }
     .navbar-custom.is-visible {
         -webkit-transform: translate3d(0, 100%, 0);
@@ -210,7 +208,7 @@ hr.small {
     }
 }
 .post-preview>a {
-    color: #231F20
+    color: #231610
 }
 .post-preview>a:focus,
 .post-preview>a:hover {
@@ -234,12 +232,12 @@ hr.small {
 }
 .post-preview>.post-meta>a {
     text-decoration: none;
-    color: #231F20
+    color: #231610
 }
 .post-preview>.post-meta>a:focus,
 .post-preview>.post-meta>a:hover {
     color: #3D5492;
-    text-decoration: underline
+    text-decoration: none
 }
 @media only screen and (min-width: 768px) {
     .post-preview>a>.post-title {
@@ -375,7 +373,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled>a:hover,
 .pager .disabled>span {
     color: gray;
-    background-color: #231F20;
+    background-color: #231610;
     cursor: not-allowed
 }
 ::-moz-selection {
@@ -423,4 +421,13 @@ body {
 }
 .recipe-feed {
     border-left: 2px solid #332815
+}
+.recipe-pop-title {
+    text-align: center
+}
+.recipe-pop-list a:hover {
+    text-decoration: none !important
+}
+.recipe-pic {
+    border-radius: 5px
 }

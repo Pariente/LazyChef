@@ -222,8 +222,7 @@ th {
   thead {
     display: table-header-group;
   }
-  tr,
-  img {
+  tr {
     page-break-inside: avoid;
   }
   img {
