@@ -70,7 +70,7 @@ hr.small {
         border-bottom: 1px solid transparent
     }
     .navbar-custom .navbar-brand {
-        color: #fff;
+        color: #231610;
         padding: 20px
     }
     .navbar-custom .navbar-brand:focus,
@@ -78,7 +78,7 @@ hr.small {
         color: rgba(255, 255, 255, .8)
     }
     .navbar-custom .nav li a {
-        color: #fff;
+        color: #231610;
         padding: 20px
     }
     .navbar-custom .nav li a:focus,
@@ -142,7 +142,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .site-heading {
     padding: 100px 0 50px;
-    color: #fff
+    color: #231610
 }
 @media only screen and (min-width: 768px) {
     .intro-header .page-heading,
@@ -234,11 +234,6 @@ hr.small {
     text-decoration: none;
     color: #231610
 }
-.post-preview>.post-meta>a:focus,
-.post-preview>.post-meta>a:hover {
-    color: #3D5492;
-    text-decoration: none
-}
 @media only screen and (min-width: 768px) {
     .post-preview>a>.post-title {
         font-size: 3em
@@ -323,9 +318,6 @@ footer .copyright {
     top: 0;
     opacity: 1
 }
-.floating-label-form-group-with-focus label {
-    color: #3D5492
-}
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee
 }
@@ -337,65 +329,6 @@ form .row:first-child .floating-label-form-group {
     letter-spacing: 1px;
     border-radius: 5px;
     padding: 15px 25px
-}
-.btn-lg {
-    font-size: 1em;
-    padding: 25px 35px
-}
-.btn-default:focus,
-.btn-default:hover {
-    background-color: #3D5492;
-    border: 1px solid #3D5492;
-    color: #fff
-}
-.pager {
-    margin: 20px 0 0
-}
-.pager li>a,
-.pager li>span {
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding: 15px 25px;
-    background-color: #fff;
-    border-radius: 0
-}
-.pager li>a:focus,
-.pager li>a:hover {
-    color: #fff;
-    background-color: #3D5492;
-    border: 1px solid #3D5492
-}
-.pager .disabled>a,
-.pager .disabled>a:focus,
-.pager .disabled>a:hover,
-.pager .disabled>span {
-    color: gray;
-    background-color: #231610;
-    cursor: not-allowed
-}
-::-moz-selection {
-    color: #fff;
-    text-shadow: none;
-    background: #3D5492
-}
-::selection {
-    color: #fff;
-    text-shadow: none;
-    background: #3D5492
-}
-img::selection {
-    color: #fff;
-    background: 0 0
-}
-img::-moz-selection {
-    color: #fff;
-    background: 0 0
-}
-body {
-    webkit-tap-highlight-color: #3D5492
 }
 .btn-landing {
     border: 0;
@@ -428,6 +361,16 @@ body {
 .recipe-pop-list a:hover {
     text-decoration: none !important
 }
-.recipe-pic {
-    border-radius: 5px
+.bg-landing {
+    background-image: url('https://dianeyoon.files.wordpress.com/2012/09/dsc04156.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+    
+}
+@media (max-width: 1000px) {
+    .bg-landing {
+        background-size: 1000px 600px;
+        background-position: center;
+    }
 }
