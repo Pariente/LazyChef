@@ -85,7 +85,7 @@ hr.small {
         color: rgba(255, 255, 255, .8)
     }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 768px) {
     .navbar-custom {
         -webkit-transition: background-color .3s;
         -moz-transition: background-color .3s;
@@ -135,7 +135,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    margin-bottom: 5em;
+    margin-bottom: 6em;
 }
 .intro-header .page-heading,
 .intro-header .post-heading,
@@ -357,10 +357,58 @@ form .row:first-child .floating-label-form-group {
 }
 .recipe-pop-title {
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
+}
+.recipe-pop-list {
+    display: block;
 }
 .recipe-pop-list a:hover {
     text-decoration: none !important
+}
+.recibox-1 {
+    float: left;
+    margin: 0px 12.5px 25px 12.5px
+} 
+.recibox-header {
+    height: 14px;
+}
+.recibox-header p {
+    margin: 0
+}
+@media (max-width: 768px) {
+    .recipe-pop-list {
+        box-sizing: padding-box;
+        padding: 0px 12.5px 0px 12.5px
+    }
+    .recibox-1 {
+        height: 344px;
+        margin-left: 0px !important;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .recibox-bg {
+        background-size: cover !important;
+        background-position: right !important;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 330px
+    }
+}
+@media (min-width: 768px) {
+    .recibox-1 {
+        height: 344px;
+        width: 315px
+    }
+    .recibox-bg {
+        background-size: cover !important;
+        background-position: right !important;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 330px;
+        width: 100%;
+    }
 }
 .bg-landing {
     background-image: url('https://dianeyoon.files.wordpress.com/2012/09/dsc04156.jpg');
