@@ -369,11 +369,25 @@ form .row:first-child .floating-label-form-group {
     margin: 0px 12.5px 25px 12.5px
 } 
 .recibox-header {
+    color: rgba(60,60,60,0.5);
     height: 14px;
+    padding: 0px 4px 0px 4px
 }
 .recibox-header p {
     margin: 0
 }
+.recibox-title {
+    box-sizing: content-box;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 300;
+    padding-left: 1em;
+    margin-top: 280px;
+    background: rgba(60,60,60,0.5);
+    border-radius: 0px 5px 5px 0px;
+    width: 70%
+}
+    
 @media (max-width: 768px) {
     .recipe-pop-list {
         box-sizing: padding-box;
