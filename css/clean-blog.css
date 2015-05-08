@@ -131,6 +131,7 @@ hr.small {
 }
 
 #logo {
+    height: 35px;
     margin-top: -8px;
 }
 
@@ -147,6 +148,7 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
     margin-bottom: 6em;
+    padding-bottom: 3em
 }
 .intro-header .page-heading,
 .intro-header .post-heading,
@@ -215,6 +217,11 @@ hr.small {
     }
     .intro-header .post-heading .subheading {
         font-size: 3em
+    }
+}
+@media (max-width: 768px) {
+    .intro-header {
+        padding-bottom: 50px
     }
 }
 .post-preview>a {
@@ -331,27 +338,55 @@ footer .copyright {
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #B5ABAD
 }
+.mail-form {
+    height: 45px;
+    font-family: Lato, sans-serif
+}
+.email-field {
+    float: left;
+    padding: 0px 0px 0px 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    font-size: 1.2em;
+    border: #C61A39 1px solid;
+    width: 240px
+}
 .btn {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1em ;
     font-weight: 700;
     letter-spacing: 1px;
-    border-radius: 5px;
     padding: 15px 25px
 }
 .btn-landing {
+    float: left;
     border: 0;
-    border-radius: 5px;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin: auto;
     background-color: #C61A39;
     color: #fff
 }
-
 .btn-landing:hover {
     color: #fff;
     border: 0;
     background-color: #D6405B
+}
+@media (max-width: 450px) {
+    .email-field,
+    .btn-landing {
+        border-radius: 5px;
+        float: none;
+        width: 220px;
+        margin-bottom: 0.3em
+    }
+    .intro-header {
+        padding-bottom: 9em;
+        margin-bottom: 2em
+    }
 }
 .hr-landing {
     border-color: #B5ABAD
@@ -384,7 +419,6 @@ form .row:first-child .floating-label-form-group {
 .recibox-1:hover {
     opacity: 0.7
 }
-
 .recibox-title {
     box-sizing: content-box;
     color: #fff;
