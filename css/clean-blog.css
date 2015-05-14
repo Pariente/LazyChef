@@ -343,12 +343,12 @@ form .row:first-child .floating-label-form-group {
     font-family: Lato, sans-serif
 }
 .email-field {
-    float: left !important;
-    padding: 0px 0px 0px 10px;
+    float: left;
+    padding: 0px 0px 0px 15px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     height: 100%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     border: #C61A39 1px solid !important;
     width: 240px
 }
