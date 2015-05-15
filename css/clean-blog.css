@@ -172,10 +172,10 @@ hr.small {
     padding-top: 150px
 }
 .intro-header .page-heading .great-title,
-.intro-header .site-heading great-title {
+.intro-header .site-heading .great-title {
     margin-top: 0;
     margin-bottom: .4em;
-    font-size: 4em
+    font-size: 5em
 }
 .intro-header .page-heading .subheading,
 .intro-header .site-heading .subheading {
@@ -186,14 +186,11 @@ hr.small {
     font-weight: 300;
     margin: 1.3em 0 0
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .intro-header .page-heading .great-title,
     .intro-header .site-heading .great-title {
-        font-size: 4em
+        font-size: 5em
     }
-}
-.intro-header .post-heading .great-title {
-    font-size: 4em
 }
 .intro-header .post-heading .meta,
 .intro-header .post-heading .subheading {
@@ -406,7 +403,10 @@ form .row:first-child .floating-label-form-group {
 }
 .recipe-pop-title {
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 3em
+}
+.recipe-pop-title h2 {
+    font-size: 3em
 }
 .recipe-pop-list {
     display: block;
