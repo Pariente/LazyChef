@@ -171,6 +171,15 @@ hr.small {
     text-align: center;
     padding-top: 150px
 }
+@media only screen and (max-width: 768px) {
+    .intro-header .post-heading,
+    .intro-header .site-heading {
+        padding: 80px 0px 80px 0px
+    }
+    .intro-header .page-heading {
+        padding-top: 80px
+    }
+}
 .intro-header .page-heading .great-title,
 .intro-header .site-heading .great-title {
     margin-top: 0;
@@ -500,6 +509,11 @@ form .row:first-child .floating-label-form-group {
     line-height: 1.2em;
     font-weight: 300;
     margin-top: 0px
+}
+@media only screen and (max-width: 768px) {
+    .our-story {
+        font-size: 2em;
+        margin: -80px 15px 0px 15px
 }
 .page-heading h1 {
     font-size: 4em !important
