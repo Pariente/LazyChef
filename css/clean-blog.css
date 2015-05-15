@@ -46,6 +46,9 @@ hr.small {
     border-width: 4px;
     border-color: #1E130E
 }
+.inline-block {
+    display: inline-block
+}
 .navbar-custom {
     position: absolute;
     top: 0;
@@ -147,28 +150,29 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    margin-bottom: 6em;
-    padding-bottom: 3em
+    margin-bottom: 3em;
 }
-.intro-header .page-heading,
 .intro-header .post-heading,
 .intro-header .site-heading {
-    padding: 100px 0 50px;
+    padding: 100px 0px 50px 0px;
     color: #1E130E
 }
 @media only screen and (min-width: 768px) {
-    .intro-header .page-heading,
     .intro-header .post-heading,
     .intro-header .site-heading {
-        padding: 150px 0
+        padding: 150px 0px 200px 0px
+    }
+    .intro-header .page-heading {
+        padding-top: 150px
     }
 }
 .intro-header .page-heading,
 .intro-header .site-heading {
-    text-align: center
+    text-align: center;
+    padding-top: 150px
 }
-.intro-header .page-heading h1,
-.intro-header .site-heading h1 {
+.intro-header .page-heading .great-title,
+.intro-header .site-heading great-title {
     margin-top: 0;
     margin-bottom: .4em;
     font-size: 4em
@@ -183,13 +187,13 @@ hr.small {
     margin: 1.3em 0 0
 }
 @media only screen and (min-width: 768px) {
-    .intro-header .page-heading h1,
-    .intro-header .site-heading h1 {
-        font-size: 80px
+    .intro-header .page-heading .great-title,
+    .intro-header .site-heading .great-title {
+        font-size: 4em
     }
 }
-.intro-header .post-heading h1 {
-    font-size: 3em
+.intro-header .post-heading .great-title {
+    font-size: 4em
 }
 .intro-header .post-heading .meta,
 .intro-header .post-heading .subheading {
@@ -348,7 +352,7 @@ form .row:first-child .floating-label-form-group {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     height: 100%;
-    font-size: 1.3em;
+    font-size: 1.5em;
     border: #C61A39 1px solid !important;
     width: 240px
 }
@@ -479,4 +483,24 @@ form .row:first-child .floating-label-form-group {
         background-position: bottom;
         background-repeat: no-repeat
     }
+}
+.about-pictures {
+    padding-top: 1em;
+    display: inline-block
+}
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    margin: 3em;
+    border-radius: 50%
+}
+.our-story {
+    text-align: center;
+    font-size: 2.7em;
+    line-height: 1.2em;
+    font-weight: 300;
+    margin-top: 0px
+}
+.page-heading h1 {
+    font-size: 4em !important
 }

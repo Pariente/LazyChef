@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="La bonne cuisine en moins de dix minutes">
-    <meta name="author" content="Thomas Pariente">
+    <meta name="author" content="LazyChef">
     <meta name="keywords" content="lazychef, lazy chef, cuisine rapide, cuisine facile, cuisiner etudiant, cuisine, recette etudiant, recette facile">
-    <meta property=”og:title” content=”LazyChef - Des recettes faciles en moins de dix minutes”>
-    <meta property=”og:type” content=”website”>
-    <meta property=”og:image” content=”img/home-bg.jpg”>
-    <meta property=”og:url” content=”http://pariente.github.io/lazychef”>
-    <meta property=”og:description” content=”LazyChef vous propose des recettes stylées et très rapides à préparer avec des aliments que vous avez vraiment dans votre frigo.”>
-    <meta property=”fb:admins” content=”570762664”>
-
-    <title>LazyChef - A propos</title>
+    <meta name="twitter:site" value="@LazyChefHQ">
+    <meta name="twitter:image" value="">
+    <meta property="og:title" content="Des recettes faciles en moins de dix minutes">
+    <meta name="og:site_name" content="LazyChef">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/home-bg.jpg">
+    <meta property="og:url" content="http://pariente.github.io/lazychef">
+    <meta property="og:description" content="LazyChef vous propose des recettes stylées et très rapides à préparer avec des aliments que vous avez vraiment dans votre frigo.">
+    <meta property="fb:admins" content="570762664">
+ 
+    
+    <title>A propos - LazyChef</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/clean-blog.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,11 +36,19 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-62528547-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
@@ -49,7 +60,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">logo</a>
+                <a class="navbar-brand" href="index.html"><img src="img/logo_full.png" alt="" id="logo" /></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,13 +70,10 @@
                         <a href="index.html">Accueil</a>
                     </li>
                     <li>
-                        <a href="about.html">Recette au hasard</a>
+                        <a href="about.html">A propos</a>
                     </li>
                     <li>
-                        <a href="post.html">A propos</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">Proposer une recette</a>
                     </li>
                 </ul>
             </div>
@@ -76,39 +84,45 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+    <header class="intro-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>A propos de LazyChef</h1>
+                        <h1>Qui sommes-nous ?</h1>
                         <hr class="small">
-                        <span class="subheading">Qui sommes-nous ?</span>
+                        <div class="about-pictures">
+                            <div class="inline-block">
+                                <div class="profile-picture" style="background: url('img/pariente.png')"></div>
+                                <h2>Thomas</h2>
+                            </div>
+                            <div class="inline-block">
+                                <div class="profile-picture" style="background: url('img/amelie.png')"></div>
+                                <h2>Amélie</h2>
+                            </div>
+                            <div class="inline-block">
+                                <div class="profile-picture" style="background: url('img/nicolas.png')"></div>
+                                <h2>Nicolas</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- Main Content -->
+    
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
-            </div>
+            <p class="our-story"><i class="fa fa-quote-left"></i> On aimerait changer du "pâtes au beurre" sans passer deux plombes en cuisine. Mais bon, les salsifis et les blettes, c'est bien pour les paysans du Moyen-Âge, alors on fait des recettes avec des trucs que tu trouveras dans ton frigo. <i class="fa fa-quote-right"></i></p>
         </div>
     </div>
-
-    <hr>
 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
+                    <ul class="list-inline text-center social-landing">
                         <li>
                             <a href="http://twitter.com/lazychefhq" target="_blank">
                                 <span class="fa-stack fa-lg">
@@ -126,7 +140,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">&copy; LazyChef</p>
+                    <p class="copyright text-muted copy-landing">&copy; LazyChef</p>
                 </div>
             </div>
         </div>
