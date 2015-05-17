@@ -440,7 +440,7 @@ form .row:first-child .floating-label-form-group {
     font-weight: 300;
     padding-left: 1em;
     margin-top: 280px;
-    background: rgba(60,60,60,0.5);
+    background: rgba(60,60,60,0.6);
     border-radius: 0px 5px 5px 0px;
     width: 70%
 }
@@ -469,6 +469,9 @@ form .row:first-child .floating-label-form-group {
     .recibox-1 {
         height: 344px;
         width: 315px
+    }
+    .recibox-2 {
+        width: 655px !important
     }
     .recibox-bg {
         background-size: cover !important;
