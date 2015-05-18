@@ -516,9 +516,11 @@ form .row:first-child .floating-label-form-group {
 }
 @media only screen and (max-width: 768px) {
     .our-story {
-        font-size: 2em;
-        margin: -80px 15px 0px 15px
-}
-.page-heading h1 {
-    font-size: 4em !important
+        line-height: 1.4em;
+        margin: 0px 50px 0px 15px;
+        padding-bottom: 1em
+    }
+    .page-heading h1 {
+        font-size: 4em !important
+    }
 }
