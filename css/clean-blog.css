@@ -420,6 +420,7 @@ form .row:first-child .floating-label-form-group {
 }
 .recipe-pop-list {
     display: block;
+    padding-bottom: 1em
 }
 .recipe-pop-list a:hover {
     text-decoration: none !important
@@ -442,9 +443,23 @@ form .row:first-child .floating-label-form-group {
     margin-top: 280px;
     background: rgba(60,60,60,0.6);
     border-radius: 0px 5px 5px 0px;
-    width: 70%
+    width: 80%
 }
-    
+.ribbon {
+    width: 150px;
+    position: static;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #C61A39;
+    float: right;
+    margin: 20px -41px 0px 0px;
+    font-weight: 700;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 @media (max-width: 768px) {
     .recipe-pop-list {
         box-sizing: padding-box;
@@ -472,6 +487,9 @@ form .row:first-child .floating-label-form-group {
     }
     .recibox-2 {
         width: 655px !important
+    }
+    .recibox-2 .recibox-title {
+        width: 50%
     }
     .recibox-bg {
         background-size: cover !important;
