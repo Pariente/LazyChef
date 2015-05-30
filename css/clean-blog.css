@@ -532,6 +532,9 @@ form .row:first-child .floating-label-form-group {
     font-weight: 300;
     margin-top: 0px
 }
+.our-story > a {
+    text-decoration: underline
+}
 @media only screen and (max-width: 768px) {
     .our-story {
         line-height: 1.4em;
