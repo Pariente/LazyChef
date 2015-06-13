@@ -473,7 +473,7 @@ form .row:first-child .floating-label-form-group {
     }
     .recibox-bg {
         background-size: cover !important;
-        background-position: right !important;
+        background-position: center !important;
         background-repeat: no-repeat;
         border-radius: 5px;
         overflow: hidden;
