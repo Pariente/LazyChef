@@ -276,7 +276,9 @@ footer .copyright {
     margin: 20px -41px 0px 0px;
     font-weight: 700;
     transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 7px 4px rgba(0,0,0,0.5)
 }
 
 @media (max-width: 768px) {
@@ -321,7 +323,7 @@ footer .copyright {
     }
 }
 .bg-landing {
-    background-image: url('../img/landing_bg.png');
+    background-image: url('../img/landing-bg.png');
     background-repeat: no-repeat;
     background-position:  bottom;
     background-size: 1000px
